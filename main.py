@@ -38,4 +38,8 @@ lblInfo.grid(row = 0, column = 0)
 lblInfo = Label(Tops, font = ("arial", 20, "bold"), text = localtime, fg = "Steel Blue", bd = 10, anchor = "w")
 lblInfo.grid(row = 1, column = 0)
 
+###################### CALCULATOR ######################
+txtDisplay = Entry(f2, font = "arial", 20, "bold"), textvariable = text_Input, bd = 30, insertwidth = 4, bg = "powder blue", justify = "right")
+txtDisplay.grid(columnspan = 4)
+
 root.mainloop()
